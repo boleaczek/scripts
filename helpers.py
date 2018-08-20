@@ -3,13 +3,14 @@ def getMarkedParams(params, expected):
     
     consumed = 0
     while(consumed < len(params)):
+
         if params[consumed].startswith('-') == False or\
-        params[consumed] in expected == False :
+        (params[consumed][1:] in expected) == False :
             consumed += 1
             continue
-        
+
         paramsDictionary[params[consumed][1:]] = params[consumed + 1]
-        consumed += 1
+        consumed += 2
     
     return paramsDictionary
         
