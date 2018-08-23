@@ -11,4 +11,5 @@ Binge videos. Requires mpv Media Player.
 ### Optional parameters:
 * ``-o - show mpv output``
 * ``-t <time> - skip to specified time in each video``
-* ``-c <n> - play n out of all the videos in the folder``	
+* ``-c <n> - play n out of all the videos in the folder``
+* ``-s <n> - start with n-th episode(in alphabetical order)``
