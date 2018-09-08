@@ -17,3 +17,7 @@ Binge videos. Requires mpv Media Player.
 ## cpp-class-scaffolder:
 Scaffold .cpp file based on provided .h file.
 ``./cpp-class-scaffolder <path to .h file> <path to output directory>``
+
+## resolution-reset:
+Sets resolution to default after running a command. Helpful for some games on wine that change the resolution.
+``./resolution-reset.py <command>``
